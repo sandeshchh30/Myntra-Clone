@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.d-none{
+    display: none;
+}
+
+.rotate-180{
+    transform: rotate(180deg);
+}

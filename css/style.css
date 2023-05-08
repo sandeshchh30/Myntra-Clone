@@ -1,0 +1,270 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 3px;
+    box-shadow: 3px 3px 10px rgba(211, 211, 211, 0.582);
+    z-index: 999;
+}
+
+.navbar img{
+    margin: 0px 0px 0px 20px;
+    width: 3.4rem;
+}
+
+.navbar ul{
+    list-style: none;   
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.search{
+    width: 36%;
+    margin-left: 30px;
+}
+
+.search-icon{
+    background-color: rgba(199, 199, 199, 0.18);
+    padding: 13px;
+    color: rgba(29, 29, 29, 0.58)
+}
+
+.navbar ul input{
+    background-color: rgba(199, 199, 199, 0.18);
+    padding: 10px;
+    border: none;
+    width: 90%;
+    outline: none;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-size: 12px;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar ul li a{
+    font-size: 14px;
+}
+
+.navbar ul li{
+    margin: -10px;
+    justify-content: space-between;
+}
+
+.content {
+    margin: 10px;
+}
+
+.profile a{
+    margin-top: 1px;
+}
+
+.wishlist a{
+    margin-top: 5px;
+}
+.bag a{
+    margin-top: 5px;
+}
+
+
+@media (max-width: 1300px) {
+    .navbar ul li{
+        display: none
+    }
+    .search i{
+        display: none;
+    }
+    .content{
+        margin: 5px;
+    }
+    .search{
+        width: 50%;
+    }
+}
+    
+
+
+
+
+
+
+
+.flat-400-off{
+    display: flex;
+    position: fixed;
+    right: 0px;
+    top: 280px;
+}   
+
+.FreeShipping-sidebar{
+    justify-content: space-around;
+    background-color: #535766;  
+    width: 2.7rem;
+    height: 18rem;
+}
+
+.vertical-text{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    font-family:  Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    margin: 0px 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.arrow{
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.rupees{
+    transform: rotate(90deg);
+    padding: 1px;
+    margin-right: 7px;
+}
+
+.FreeShipping{
+    background: linear-gradient(to right, #FCE2F2, #FEF8E7);
+    width: 36rem;
+    font-family: sans-serif;
+}
+
+.FreeShipping-first-row{
+    height: 10rem;
+}
+
+.FreeShipping-second-row{
+    height: 5rem;
+}
+
+.FreeShipping-third-row{
+    height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-slider{
+    margin-top: 8rem;
+}
+
+.slide{
+    display: none;
+}
+
+.first{
+    display: block;
+}
+
+
+.slides{
+    position: relative;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.nav-manual{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dot{
+    display: inline-block;
+    height: 0.4rem;
+    width: 0.4rem;
+    background-color: rgba(167, 167, 167, 0.648);
+    padding: 0.27rem;
+    margin: 0px 0.3rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.dot:hover{
+
+    background-color: rgba(67, 66, 66, 0.833);
+}
+
+.active{
+    background-color: rgba(67, 66, 66, 0.833);
+}
+
+
+
+
+
+
+
+
+.heading{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgba(24, 24, 24, 0.848);
+    margin: 4rem 30px;
+    font-size: 1.6rem;
+    letter-spacing: 0.25rem;
+    word-spacing: 0.6rem;
+}
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+/* .image-container img */
+
+/* .first-container{
+    justify-content: space-evenly;
+} */
+
+.box-8 img{
+    width: 185px;
+}
+
+@media (max-width: 900px) {
+    .box-8 img{
+        width: 150px;
+    }
+}
+
+/* .first-container img{
+    width: 12%;
+} */
+
+.box-7 img{
+    width: 200px;
+} 
