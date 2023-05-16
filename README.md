@@ -15,9 +15,9 @@ It aims to replicate the design and layout of the Myntra website, providing a si
 
     1. Clone the repository: 
      
-                git clone https://github.com/your-username/myntra-clone.git
+                git clone https://github.com/sandeshchh30/Myntra-Clone.git
                     
     2. Navigate to the project directory:
      
-                cd myntra-clone
+                cd Myntra-Clone
     3. Open the index.html file in your preferred web browser.
